@@ -1,0 +1,413 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+
+.mh-estate__related .mh-caption__inner.mh-label__ready-to-move, .mh-estate__related .mh-caption__inner.mh-label__under-construction {
+
+    left: -76% !important;
+
+}
+
+@media (min-width:1023px) {
+    #mega_main_menu li.default_dropdown>.mega_dropdown {
+        width:242px !important;
+    }
+}
+.mh-post-grid__thumbnail .mh-thumbnail__inner img {
+    max-width:100%;
+}
+
+/* Header Css  */
+@media (min-width: 1023px){
+    html body #mega_main_menu.mh-primary>.menu_holder>.menu_inner>ul>li {
+        margin: 0px 0px !important;
+    }
+    html body #mega_main_menu.mh-primary > .menu_holder > .menu_inner > ul > li[class*="columns"] {
+        margin-right: 0px!important;
+    }
+}
+/* End Header Css  */
+/* footer Css */
+ul.footer-ul {
+    list-style: none;
+    font-size: 16px;
+    line-height: 2;
+}
+
+/* Top bar Css*/
+
+@media only screen and (max-width: 600px){
+
+
+    span.mh-top-header__element.mh-top-header__element--phone , span.mh-top-header__element.mh-top-header__element--mail {
+        width: auto !important;
+        padding: 0 0px 0 25px;
+    }
+    span.mh-top-header__element.mh-top-header__element--social-icons span {
+        margin: 0 6px !important;
+    }
+    span.mh-top-header__element.mh-top-header__element--social-icons:lang(ar) {
+        float: left !important;
+    }
+    span.mh-top-header__element.mh-top-header__element--social-icons:lang(en) {
+        float: right !important;
+    }
+    .mh-top-header__element--social-icons {
+        display: inherit !important;
+        width: auto;
+    }
+    .mh-menu-currency-wrapper {
+        float: left;
+        width: auto !important;
+    }
+}
+a.float {
+    display: none;
+}
+
+
+/* Css for price table   */
+
+table.price-table tr.heder-tr {
+    background: #cfa94b !important;
+    color: #fff;
+    font-weight: 900 !important;
+}
+
+table.price-table tr:nth-child(even) {background: #fff}
+table.price-table tr:nth-child(odd) {background: #efdc8b;}
+
+/* End css for preice table   */
+
+
+
+/* Css for real estate calculater */
+
+div#fieldlist_1 {
+    background: #cfa94b;
+    padding: 26px;
+    border-radius: 6px;
+}
+.field.number.large:focus {
+    background: #fff;
+}
+.codepeoplecalculatedfield.field.large:focus {
+    background: #fff !important;
+}
+button.button.btn.btn-primary.cbcurrencyconverter_calculate {
+    background: #cfa94b;
+    width: 100%;
+    height: 45px;
+    margin-top: 13px;
+    color: #fff;
+}
+.cbcurrencyconverter_result.cbcurrencyconverter_result_widget {
+    border: 1px solid #cfa94b !important;
+    text-align: center !important;
+    direction: ltr !important;
+}
+
+
+address.mh-footer__contact {
+    font-size: 10px;
+}
+
+
+
+
+/*  Css For arabic*/
+
+.mh-attribute__property-type-2:lang(ar),  .mh-attribute__property-condition:lang(ar),  .mh-attribute__region:lang(ar),  .mh-attribute__finishing-date:lang(ar),  .mh-attribute__attribute_22:lang(ar),  .mh-attribute__features-2:lang(ar),  .mh-attribute__construction-date:lang(ar) {
+    display:none;
+}
+/* Hide arabic in english lang */
+.mh-attribute__property-type:lang(en), .mh-attribute__price:lang(en), .mh-attribute__city:lang(en) , .mh-attribute__keyword:lang(en) , .mh-attribute__year-built:lang(en) , .mh-attribute__lot-size:lang(en) ,.mh-attribute__property-id:lang(en),.mh-attribute__features:lang(en) ,.mh-attribute__offer-type:lang(en){
+    display: none;
+}
+
+/*   */
+.mh-estate__section.mh-estate__section--plans h3:lang(ar).mh-estate__section__heading:after {
+    content: "المخططات";
+    color: #a4712b;
+    top: -1px;
+    background: none;
+}
+
+.mh-estate__related h3:lang(ar).mh-estate__section__heading:before {
+    content: "مشاريع مشابهة";
+    color: #a4712b;
+    left: 0px;
+    right: 14% !important;
+    background: none;
+    position: relative;
+}
+.mh-estate__section.mh-estate__section--video h3:lang(ar).mh-estate__section__heading:after {
+    content: "فيديو المشروع";
+    color: #a4712b;
+    top: -1px;
+    background: none;
+}
+
+section.mh-estate__section.mh-estate__section--attachments h3:lang(ar).mh-estate__section__heading:after {
+    content: "مرفقات المشروع ";
+    color: #a4712b;
+    top: -1px;
+    background: none;
+}
+.mh-estate__section.mh-estate__section--description h3.mh-estate__section__heading:lang(ar):after {
+    content: "تفاصيل المشروع";
+    color: #a4712b;
+    top: -1px;
+    background: none;
+}
+
+.mh-estate__related h3:lang(ar) {
+    color: #fff !important;
+}
+.mh-estate__section.mh-estate__section--description h3:lang(ar).mh-estate__section__heading , .mh-estate__section.mh-estate__section--plans h3:lang(ar).mh-estate__section__heading , .mh-estate__section.mh-estate__section--video h3:lang(ar).mh-estate__section__heading , section.mh-estate__section.mh-estate__section--attachments h3:lang(ar).mh-estate__section__heading {
+    color: #f4f4f4 !important;
+}
+li#mh-estate_attribute--1:lang(en) , li#mh-estate_attribute--10:lang(en) {
+    display: none;
+}
+
+
+
+.mh-layout__sidebar--sticky div.mh-widget-title h3.mh-widget-title__text {
+    display: none;
+}
+
+/*Css for form on slider on tablet*/
+
+@media only screen and (max-width: 600px) {
+    span.wpcf7-form-control-wrap.textarea-142 {
+        display: none !important;
+    }
+
+    .mh-caption__inner.mh-label__ready-to-move,.mh-caption__inner.mh-label__under-construction {
+        margin-top: 27px;
+        margin-left: -37px !important;
+        padding-left: 29px !important;
+        position: absolute;
+        left: -150px !important;
+    }
+
+
+}
+.mfp-counter {
+    direction: ltr;
+}
+h3.leading-price {
+    color: #cfa94b;
+}
+li#mh-estate_attribute--24:lang(en) {
+    display: none;
+}
+h3.mh-estate__section__heading {
+    color: #a4712b;
+}
+li#mh-estate_attribute--2:lang(en) {
+    display: none;
+}
+.single-post .mh-top-title__heading {
+    display: none !important;
+}
+i.flaticon-pin {
+    color: red;
+}
+i.flaticon-phone {
+    color: blue;
+}
+i.flaticon-mail-2 {
+    color: green;
+}
+.menu-item a {
+    text-transform: uppercase;
+}
+.mh-favorite-card.myhome-add-to-favorite {
+    display: none;
+}
+.mh-favorite-card {
+    display: none;
+}
+button.mh-estate__add-to__favorite.myhome-add-to-favorite-single {
+    display: none;
+}
+.mh-estate__details__price__single {
+    font-size: 19px !important;
+}
+a.item_link.disable_icon {
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+}
+@media (min-width: 1023px){
+    #mega_main_menu li.default_dropdown>.mega_dropdown {
+        width: 149px !important;
+    }}
+
+
+/* Css for language swither*/
+
+.mh-wpml-top-bar__item {
+    display: inline-block;
+    padding: 0;
+    width: 79px;}
+
+.mh-wpml-top-bar__item a{
+    color:#fff !important;
+}
+#mega_main_menu>.menu_holder>.menu_inner>ul>li>.item_link:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 0px;}
+
+element.style {
+}
+@media (min-width: 1023px){
+    html body #mega_main_menu.mh-primary>.menu_holder>.menu_inner>ul>li>ul .menu-item>.item_link:lang(ar) {
+        text-align: right;
+    }
+    #mega_main_menu li.default_dropdown > .mega_dropdown > li {
+        float: none;
+        width: 199%;
+    }
+}
+@media (min-width: 1023px){
+    html body #mega_main_menu.mh-primary>.menu_holder>.menu_inner>ul>li>ul .menu-item>.item_link {
+        text-transform: uppercase;
+    }}
+#mega_main_menu.mh-primary li.default_dropdown>.mega_dropdown>li:first-child>.item_link, #mega_main_menu.mh-primary.direction-vertical>.menu_holder>.menu_inner>ul>li:first-child>.item_link {
+    border-radius: 0;
+}
+#mega_main_menu.mh-primary li.default_dropdown>.mega_dropdown>li>.item_link {
+    border-color: rgba(255,255,255,0);
+}
+
+.mh-price__range {
+    DIRECTION: ltr;
+}
+@media (max-width: 600px){
+    html body #mega_main_menu.mh-primary .nav_logo img {
+        height: 61px !important;
+    }
+    a.logo_link {
+        margin-left: 14px !important;
+    }
+}
+.featured-arabic:lang(en) {
+    display: none;
+}
+.featured-english:lang(ar) {
+    display: none;
+}
+.mh-thumbnail__featured {
+    background: red !important;
+    font-weight: 700;
+    font-family: "cairo";
+    font-family: play;
+    text-transform: uppercase;
+}
+.menu_holder {
+    height: 86px !important;
+}
+input.wpcf7-form-control.wpcf7-submit.btn {
+    width: 100%;
+    text-align: center !important;
+    height: 36px;
+    border-radius: 5px;
+    margin: 0 !important;
+}
+.mh-caption__inner{
+    transform: rotate(
+            -40deg
+    );
+    margin-top: 17px;
+    margin-left: -26px;
+    padding-right: 36px !important;
+    padding-left: 21px;
+}
+.mh-caption__inner.mh-label__ready-to-move,.mh-caption__inner.mh-label__under-construction {
+    margin-top: 27px;
+    margin-left: -37px !important;
+    padding-left: 29px !important;
+    position: absolute;
+    left: -62% ;
+    font-size: 11px;
+}
+
+.mh-thumbnail__featured{
+    display:none;
+}
+
+.mh-property.mh-grid__1of2 .mh-caption__inner.mh-label__ready-to-move {
+    margin-top: 11%;
+    margin-left: -5%px !important;
+    position: absolute;
+    left: -76%;
+}
+article.mh-post-grid.mh-post-grid--img-absolute.mh-post-grid--white.post-5819.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-news-and-articles .mh-caption__inner {
+    transform: rotate(
+            -40deg
+    );
+    margin-top: 17px;
+    margin-left: -30px;
+    padding-right: 36px !important;
+    padding-left: 21px;
+    left: -162px !important;
+    position: relative;
+}
+/* transform: rotate(
+-40deg
+);
+ margin-top: 28px;
+ margin-left: -38px;
+ padding-right: 36px !important;
+ padding-left: 23px;
+left:5px;
+ height:30px;
+ font-family:cairo !important;
+}
+.mh-thumbnail__featured .fa-star:before {
+     font-family:cairo !important;
+
+ content: "مناسب للجنسية التركية";
+} */
+
+
+
+
+.mh-caption__inner.mh-label__\%d9\%85\%d9\%86\%d8\%a7\%d8\%b3\%d8\%a8-\%d9\%84\%d9\%84\%d8\%ac\%d9\%86\%d8\%b3\%d9\%8a\%d8\%a9-\%d8\%a7\%d9\%84\%d8\%aa\%d8\%b1\%d9\%83\%d9\%8a\%d8\%a9 {
+    left: 2px !important;
+    margin-left: -152px;
+    margin-top: 39px;
+    background: red !important;
+}
+.mh-footer__logo>img, .mh-footer__text {
+    height: 97px !important;
+}
+span.link_text {
+    font-size: 16px !important;
+}
+a.item_link.disable_icon {
+    padding-left: 17px !important;
+}
+button.mh-estate__add-to__compare.myhome-compare-button-single,.mh-estate__details__map {
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .mh-top-header__element--phone,.mh-top-header__element--mail{
+        display:none;
+    }}
+.mh-footer__contact i {
+    color: #e5b147 !important;
+}
+a.item_link.disable_icon {
+    padding-left: 15px !important;
+}

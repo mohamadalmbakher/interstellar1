@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <meta charset="utf-8" />
+        <title>Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="resources/images/favicon.ico"/>
+        <link href="resources/css/bootstrap.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <link href="resources/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="resources/css/app.css" id="app-style" rel="stylesheet" type="text/css" />
+    </h:head>
+    <h:body>
+
+        <div class="container-fluid">
+            <!-- Begin page -->
+            <div id="layout-wrapper">
+                
+                
+                <ui:include src="includes/header.xhtml" />
+                <ui:include src="#{CurrentUser.selectAdminOrClient()}" />
+
+                <!--header-->
+                <!--vertical-menu-->
+
+
+                <div class="main-content">
+
+                    <div class="page-content">
+
+                        <!-- start page title -->
+                        <div class="row">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- END layout-wrapper -->
+
+        </div>
+       
+        
+ 
+        <script src="resources/libs/jquery/jquery.min.js"></script>
+        <script src="resources/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="resources/libs/metismenu/metisMenu.min.js"></script>
+        <script src="resources/libs/simplebar/simplebar.min.js"></script>
+        <script src="resources/libs/node-waves/waves.min.js"></script>
+        <script src="resources/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+   
+        <!-- jquery.vectormap map -->
+        <script src="resources/libs/admin-resources/jquery.vectormap/jquery-jvectormap-1.2.2.min.js"></script>
+        <script src="resources/libs/admin-resources/jquery.vectormap/maps/jquery-jvectormap-us-merc-en.js"></script>
+
+ 
+        <script src="resources/js/app.js"></script>
+
+    </h:body>
+</html>
+
